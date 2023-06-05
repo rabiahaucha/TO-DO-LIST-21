@@ -39,7 +39,7 @@ document.querySelector('#add').onclick = function(){
     if(document.querySelector('#input').value.length == 0)
     {
         alert("Items are required")
-        console.log('Reached');
+        console.log('Logged');
     }
     else{
         array.push({

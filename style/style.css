@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: black;
+    font-family: 'Italic', serif;
+}
+.container{
+    background: white;
+    border-radius: 10px;
+    width: 30rem;
+    height: 35rem;
+    margin-top: 8rem;
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#input{
+    display: flex;
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family:'Italic', serif ;
+    font-size: 15px;
+    border: 2px solid black;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color:purple;
+    border: 2px solid black;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px; border-radius: 5px;
+    margin: 5px 5px;
+}
+#tasks{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 30px 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color:#924E7D;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Italic', serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    border: 2px solid black;
+    background-color: #6583E5;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+.list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    
+}
+button{
+    font-family: 'Italic', serif;
+  
+}
+.delete{
+    border-radius:50% !important;
+}
+.checked {
+    text-decoration: line-through;
+  }
